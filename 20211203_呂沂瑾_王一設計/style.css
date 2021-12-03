@@ -1,0 +1,86 @@
+body>div{
+    width: 100%;
+    position: relative;
+}
+
+.stall-img{
+    position: absolute;
+    top:0;
+    left:0;
+    z-index: 1001;
+    width: 70%;
+    transform: translate(-50%, -50%);
+    top: 50%;
+    left: 50%;
+}
+
+.carousel{
+    position: absolute;
+    top:0;
+    left:0;
+    transform: translate(-50%, -50%);
+    left: 21.65%;
+    top: 50%;
+    width: 8%;
+    z-index: 1002;
+}
+
+.logo{
+    position: absolute;
+    top:0;
+    left:0;
+    transform: translate(-50%, -50%);
+    left: 37.5%;
+    top: 12%;
+    width: 6%;
+    z-index: 1003;
+}
+
+.arc{
+    position: absolute;
+    top:0;
+    left:0;
+    transform: translate(-50%, -50%);
+    left: 76%;
+    top: 60%;
+    width: 13%;
+    z-index: 1004;
+}
+
+.upload{
+    position: absolute;
+    top:0;
+    left:0;
+    transform: translate(-50%, -50%);
+    left: 48.5%;
+    top: 60.5%;
+    width: 35.5%;
+    z-index: 1002;
+}
+
+.prdBtn{
+    color: white;
+    padding: 10px 15px;
+    font-size: 20px;
+    border-radius: 50px;
+    border: none;
+    background-color: transparent;
+    background: linear-gradient(90deg, rgb(1, 87, 185), rgb(0, 255, 170));
+    position: absolute;
+    transform: translate(-50%, -50%);
+    top:0;
+    left:0;
+    top: 90%;
+    left: 50%;
+    z-index: 1005;
+}
+
+.title{
+    position: absolute;
+    transform: translate(-50%, -50%);
+    top:0;
+    left:0;
+    top: 14%;
+    left: 55%;
+    z-index: 1006;
+}
